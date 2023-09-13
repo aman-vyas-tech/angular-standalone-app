@@ -11,4 +11,4 @@ bootstrapApplication(AppComponent, {
     importProvidersFrom(HttpClientModule),
     importProvidersFrom(RouterModule.forRoot(APP_ROUTES))
   ]
-})
+});

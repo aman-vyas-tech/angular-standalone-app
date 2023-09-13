@@ -4,5 +4,9 @@ export const APP_ROUTES = [
     {
         path: '',
         component: HomeComponent
-    }
+    },
+    {
+        path: '**',
+        redirectTo: '',
+    },
 ]
